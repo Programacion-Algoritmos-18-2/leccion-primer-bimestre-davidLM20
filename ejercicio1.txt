@@ -5,15 +5,15 @@ Empleado
 	apellido
 	cedula
 	comision_fija
-	
-EmpleadoFijo
-	sueldo_fijo
-	descuento_seguro
-	metodos: calcular_sueldo_final()
 
 EmpleadoPorHoras
 	numero_horas
 	valor_hora
+	metodos: calcular_sueldo_final()
+	
+EmpleadoFijo
+	sueldo_fijo
+	descuento_seguro
 	metodos: calcular_sueldo_final()
 
 EmpleadoPorSemana

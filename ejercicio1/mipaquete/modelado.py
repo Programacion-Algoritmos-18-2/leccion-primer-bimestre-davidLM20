@@ -66,7 +66,7 @@ class EmpleadoPorHoras(Empleado):
 	def presentar_datos(self):
 		cadena = "%s\n\tNumero horas: %s\n\tValor hora: %s\n\tSueldo Final: %s" % (super(EmpleadoPorHoras,self).presentar_datos(), self.obtener_numero_horas(), self.obtener_valor_horas(), self.calcular_valor_sueldo())
 		return cadena
-#s
+#Metodo expecial para los empleados fijos
 class EmpleadoFijo(Empleado):
 	"""docstring for EmpleadoFijo"""
 	def __init__(self):
@@ -96,4 +96,4 @@ class EmpleadoFijo(Empleado):
 		cadena = "%s\n\tSueldo Fijo: %s\n\tDescuento del seguro:%s\n\tSueldo Final:%s" %(super(EmpleadoFijo,self).presentar_datos(), self.obtener_sueldo_fijo(), self.obtener_descuento(), self.calcular_sueldo_final())
 		return cadena
 
-				
+class 				
